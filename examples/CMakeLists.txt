@@ -1,0 +1,2 @@
+add_executable(simple_notification simple_notification.cpp)
+target_link_libraries(simple_notification PRIVATE MiniKDENotify::MiniKDENotify)
