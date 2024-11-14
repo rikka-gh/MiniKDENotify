@@ -12,7 +12,7 @@ project(MiniKDENotify
         LANGUAGES CXX
 )
 
-option(MINIKDENOTIFY_BUILD_EXAMPLES "Build example programs" ON)
+option(MINIKDENOTIFY_BUILD_EXAMPLES "Build example programs" OFF)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
